@@ -20,7 +20,7 @@
 
     <!-- A brief introduction about myself -->
     <p class="profile">My name is Uche Emmanuel, and I am a software developer with expertise in a wide range of programming languages. I build web, desktop, and mobile applications, and I am passionate about exploring new technologies like blockchain and AI. While I have worked extensively with languages and tools such as C/C++, VB6, VB.Net, Java, C#, PHP, JavaScript, Node.js, SQL, and MySQL, my knowledge extends beyond these, as I continually expand my skills in various other technologies.</p>
-
+    <p style="font-size:20px; font-weight: bold; text-align: right; color: #FF0000; display: inline-block; margin: 20px; float: right; padding: 10px; border: 2px outset #CCCCCC;" id="thisdate"></p>
     <!-- Image centered using CSS -->
     <img src="assets/images/UcheNew.jpg" alt="A photo of me" class="center-image">
 
@@ -41,5 +41,8 @@
     <footer>
         <p>&copy; 2024 | All Rights Reserved.</p>
     </footer>
+    <script>
+        window.setInterval("showDateTime()", 1000);
+    </script>
 </body>
 </html>
