@@ -7,7 +7,3 @@ function showDateTime() {
   var dateTimeString = now.toLocaleString(); // Format the date and time
   document.getElementById("thisdate").innerHTML = dateTimeString;
 }
-
-function doList()
-{
-}
